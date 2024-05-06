@@ -1,0 +1,31 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "first node express learning project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamurkude79/learn-node-express.git"
+  },
+  "author": "Shubham Urkude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamurkude79/learn-node-express/issues"
+  },
+  "homepage": "https://github.com/shubhamurkude79/learn-node-express#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^5.0.0-beta.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5"
+  }
+}
