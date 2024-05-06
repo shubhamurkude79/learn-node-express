@@ -7,21 +7,21 @@ const routes = (app) => {
         console.log(`Request type: ${req.method}`)
         next();
     }, (req, res, next) => {
-        res.send('GET request sucessful!')
+        res.send('GET request successful!')
     })
 
     .post((req, res) => {
-        res.send('POST request sucessful!')
+        res.send('POST request successful!')
     })
 
     app.route('/contact/:contactId')
 
     .put((req, res) => {
-        res.send('PUT request sucessful!')
+        res.send('PUT request successful!')
     })
 
     .delete((req, res) => {
-        res.send('DELETE request sucessful!')
+        res.send('DELETE request successful!')
     })
 }
 
