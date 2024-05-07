@@ -3,3 +3,6 @@ node_modules/
 
 # Other important files
 .DS_Store
+
+# keyFile
+zz-imp-sshKey.txt
